@@ -11,8 +11,7 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="2*" />
-                <RowDefinition />
-                <RowDefinition Height="100" />
+               
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
@@ -20,24 +19,46 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
             <BoxView Color="#12d629" />
-            <Label Text="Chat"
+            <Button Text="Chat"
+                    TextColor="WhiteSmoke"
+            BackgroundColor="#12d629"
+                    
                HorizontalOptions="Center"
                VerticalOptions="Center" />
             <BoxView Grid.Column="1"
                  Color="#12d629" />
-            <Label Grid.Column="1"
+            <Button Grid.Column="1"
+                    BackgroundColor="#12d629"
                Text="Status"
+                    TextColor="WhiteSmoke"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
             <BoxView Grid.Column ="2"
                  Color="#12d629" />
-            <Label Grid.Column="2"
+            <Button Grid.Column="2"
+                    BackgroundColor="#12d629"
                Text="Calls"
+                    TextColor="WhiteSmoke"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
                
                
         </Grid>
+
+        <StackLayout>
+            <Frame BackgroundColor="WhiteSmoke">
+                <Label Text="Demi" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/> 
+            </Frame>
+
+            <Frame BackgroundColor="WhiteSmoke">
+                <Label Text="Jade" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
+            <Frame BackgroundColor="WhiteSmoke">
+                <Label Text="Carla" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+           
+        </StackLayout>
 
 
     </StackLayout>
