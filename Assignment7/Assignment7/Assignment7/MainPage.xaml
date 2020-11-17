@@ -21,6 +21,8 @@
             <BoxView Color="#12d629" />
             <Button Text="Chat"
                     TextColor="WhiteSmoke"
+                    FontAttributes="Italic"
+                    FontSize="Large"
             BackgroundColor="#12d629"
                     
                HorizontalOptions="Center"
@@ -31,14 +33,19 @@
                     BackgroundColor="#12d629"
                Text="Status"
                     TextColor="WhiteSmoke"
+                    FontAttributes="Italic"
+                    FontSize="Large"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
             <BoxView Grid.Column ="2"
                  Color="#12d629" />
+            
             <Button Grid.Column="2"
                     BackgroundColor="#12d629"
                Text="Calls"
                     TextColor="WhiteSmoke"
+                    FontAttributes="Italic"
+                    FontSize="Large"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
                
@@ -47,7 +54,7 @@
 
         <StackLayout>
             <Frame BackgroundColor="WhiteSmoke">
-                <Label Text="Demi" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/> 
+                <Label Text="Mikki" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/> 
             </Frame>
 
             <Frame BackgroundColor="WhiteSmoke">
@@ -57,7 +64,23 @@
             <Frame BackgroundColor="WhiteSmoke">
                 <Label Text="Carla" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/>
             </Frame>
-           
+
+            <Frame BackgroundColor="WhiteSmoke">
+                <Label Text="Anathi" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
+            <Frame BackgroundColor="WhiteSmoke">
+                <Label Text="Dad" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+            
+            <Frame BackgroundColor="WhiteSmoke">
+                <Label Text="Alastaire" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
+            <Frame BackgroundColor="WhiteSmoke">
+                <Label Text="Aunty Letti" TextColor="#12d629" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+
         </StackLayout>
 
 
