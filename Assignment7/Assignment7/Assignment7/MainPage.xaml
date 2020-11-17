@@ -7,7 +7,39 @@
         <Frame BackgroundColor="#12d629" Padding="12" CornerRadius="10">
             <Label Text="Whatsapp" HorizontalTextAlignment="Start" TextColor="White" FontSize="40"/>
         </Frame>
-    
+        [2:14 PM] Anathi Matinise
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <BoxView Color="#12d629" />
+            <Label Text="Chat"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <BoxView Grid.Column="1"
+                 Color="#12d629" />
+            <Label Grid.Column="1"
+               Text="Status"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <BoxView Grid.Column ="2"
+                 Color="#12d629" />
+            <Label Grid.Column="2"
+               Text="Calls"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+               
+               
+        </Grid>
+
+
     </StackLayout>
 
 </ContentPage>
