@@ -47,7 +47,7 @@
                     FontAttributes="Italic"
                     FontSize="Large"
                HorizontalOptions="Center"
-               VerticalOptions="Center" />
+               VerticalOptions="Center"  />
                
                
         </Grid>
