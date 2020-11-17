@@ -7,8 +7,8 @@
         <Frame BackgroundColor="#12d629" Padding="12" CornerRadius="10">
             <Label Text="Whatsapp" HorizontalTextAlignment="Start" TextColor="White" FontSize="40"/>
         </Frame>
-        [2:14 PM] Anathi Matinise
-        <Grid>
+        
+        <Grid> 
             <Grid.RowDefinitions>
                 <RowDefinition Height="2*" />
                
