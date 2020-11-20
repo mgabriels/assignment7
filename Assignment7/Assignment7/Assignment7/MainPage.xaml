@@ -20,6 +20,7 @@
             </Grid.ColumnDefinitions>
             <BoxView Color="#12d629" />
             <Button Text="Chat"
+                    Clicked="Button_Clicked"
                     TextColor="WhiteSmoke"
                     FontAttributes="Italic"
                     FontSize="Large"
@@ -32,6 +33,7 @@
             <Button Grid.Column="1"
                     BackgroundColor="#12d629"
                Text="Status"
+                    Clicked="Button_Clicked_1"
                     TextColor="WhiteSmoke"
                     FontAttributes="Italic"
                     FontSize="Large"
@@ -43,6 +45,7 @@
             <Button Grid.Column="2"
                     BackgroundColor="#12d629"
                Text="Calls"
+                    Clicked="Button_Clicked_2"
                     TextColor="WhiteSmoke"
                     FontAttributes="Italic"
                     FontSize="Large"
